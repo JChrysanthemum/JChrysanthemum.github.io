@@ -55,17 +55,17 @@ kramdown:
 
 # 评论系统
 # Disqus (https://disqus.com/)
-# disqus_username: XueTao
+disqus_username: XueTao
 
 # Gitalk
 # gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: f3938da580657eb0156e                            #生成的clientID
-  clientSecret: bb6936b94eece42cb0910d9935ef1190f4d9e1f0    #生成的clientSecret
-  repo: JChrysanthemum.github.io    #仓库名称
-  owner: JChrysanthemum    #github用户名
-  admin: JChrysanthemum
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+  # enable: true    #是否开启Gitalk评论
+  # clientID: f3938da580657eb0156e                            #生成的clientID
+  # clientSecret: bb6936b94eece42cb0910d9935ef1190f4d9e1f0    #生成的clientSecret
+  # repo: JChrysanthemum.github.io    #仓库名称
+  # owner: JChrysanthemum    #github用户名
+  # admin: JChrysanthemum
+  # distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
