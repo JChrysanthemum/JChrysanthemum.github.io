@@ -61,7 +61,7 @@ kramdown:
 # gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: f3938da580657eb0156e                            #生成的clientID
-  # clientSecret: f3938da580657eb0156e    #生成的clientSecret
+  clientSecret: bb6936b94eece42cb0910d9935ef1190f4d9e1f0    #生成的clientSecret
   repo: JChrysanthemum.github.io    #仓库名称
   owner: JChrysanthemum    #github用户名
   admin: JChrysanthemum
