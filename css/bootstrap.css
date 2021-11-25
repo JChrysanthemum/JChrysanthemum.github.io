@@ -1513,12 +1513,13 @@ pre,
 samp {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
-code {
-  padding: 2px 4px;
+code { /* CODE STYLE*/
+  padding: 5px 7px;
   font-size: 90%;
   color: #c7254e;
   background-color: #f9f2f4;
   border-radius: 4px;
+  white-space : pre-wrap !important;
 }
 kbd {
   padding: 2px 4px;
