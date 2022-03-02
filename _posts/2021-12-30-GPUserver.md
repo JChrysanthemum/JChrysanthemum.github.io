@@ -48,6 +48,25 @@ DL has install web-cuda installer,so you can isntall anycuda just by
 Add one like this `192.168.233.1:/volume1/homes/jiangxt21    /home/jiangxt21/synData    nfs    noexec    0     0`
 Then `sudo mount -a`
 
+## 4.1 netplan
+Apply local ip for syn
+
+edit the file `/etc/netplan/00-installer-config.yaml`
+
+```bash
+enp94s0f0:
+      optional: true
+enp94s0f1:
+      addresses: [192.168.233.2/30] # the port for syn
+      optional: true
+```
+
+```bash
+sudo netplan apply
+sudo systemctl restart NetworkManager.service
+```
+
+
 # 5.Flow
 
 1. Send readme doc to them
