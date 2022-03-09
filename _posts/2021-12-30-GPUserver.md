@@ -14,10 +14,10 @@ comments: true
 
 # Location
 
-| Name | Cabinets| Other|
-|---|---|---|
-| V100 | c7 | 9-12u  |
-| Synology | c7 | 14u |
+ Name | Cabinets| Other
+---|---|---
+ V100 | c7 | 9-12u  
+ Synology | c7 | 14u 
 
 Get Address form Admin
   
