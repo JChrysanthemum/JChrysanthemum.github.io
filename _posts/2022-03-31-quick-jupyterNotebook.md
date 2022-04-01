@@ -62,7 +62,7 @@ run this in tmux or screen.
 jupyter notebook
 ```
 
-# 3 Use tunnel to forecast your web
+# 3 Use SSH tunnel to boardcast your web
 Note: Xmanger is slow
 
 ```bash
