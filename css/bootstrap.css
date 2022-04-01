@@ -1545,7 +1545,7 @@ kbd {
           box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .25);
 }
 kbd kbd {
-  padding: 0;
+  padding: 2px;
   font-size: 100%;
   font-weight: bold;
   -webkit-box-shadow: none;
@@ -1554,7 +1554,7 @@ kbd kbd {
 pre {
   display: block;
   padding: 9.5px;
-  margin: 0 0 10px;
+  margin: 2 2 10px;
   font-size: 13px;
   line-height: 1.42857143;
   color: #333;
@@ -1565,7 +1565,7 @@ pre {
   border-radius: 4px;
 }
 pre code {
-  padding: 0;
+  padding: 8px;
   font-size: inherit;
   color: inherit;
   white-space: pre-wrap;
