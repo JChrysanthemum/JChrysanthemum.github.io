@@ -51,5 +51,14 @@ https://matplotlib.org/stable/users/prev_whats_new/dflt_style_changes.html
 
 Color|Hex
 ---|---
-<span style="color:#1f77b4">████ </span> | '#1f77b4'
+<span style="color:#1f77b4">████████████████ </span> | '#1f77b4'
+<span style="color:#ff7f0e">████████████████ </span> | '#ff7f0e'
+<span style="color:#2ca02c">████████████████ </span> | '#2ca02c'
+<span style="color:#d62728">████████████████ </span> | '#d62728'
+<span style="color:#9467bd">████████████████ </span> | '#9467bd'
+<span style="color:#8c564b">████████████████ </span> | '#8c564b'
+<span style="color:#e377c2">████████████████ </span> | '#e377c2'
+<span style="color:#7f7f7f">████████████████ </span> | '#7f7f7f'
+<span style="color:#bcbd22">████████████████ </span> | '#bcbd22'
+<span style="color:#17becf">████████████████ </span> | '#17becf'
 
