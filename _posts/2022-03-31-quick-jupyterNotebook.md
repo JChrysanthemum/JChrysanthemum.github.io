@@ -80,3 +80,7 @@ Keep your venv acivated `(venv) ~/PATH`
 
 Then it will auto config the kernel.json file
 
+For jupyter theme
+```python
+jt -t oceans16 -nfs 22 -tfs 22 -fs 20 -cellw 1280 -lineh 150 -ofs 16 -dfs 16
+```
