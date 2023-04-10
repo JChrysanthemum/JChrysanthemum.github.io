@@ -1,41 +1,33 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 
+keywords: 
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
 
-仰慕「优雅编码的艺术」。
+# 1.论文
 
-坚信熟能生巧，努力改变人生。
+## 1.1 主要
 
-## 联系
+Title | Author | 中科院分区 | 影响因子
+---|---|:---:|---
+[Forestry Digital Twin With Machine Learning in Landsat 7 Data](https://www.frontiersin.org/articles/10.3389/fpls.2022.916900/full) | 1/5 |2区<br />（植物学顶刊）|[6.627](http://www.letpub.com.cn/index.php?journalid=9448&page=journalapp&view=detail)
+[Crop and weed classification based on AutoML](http://www.aimspress.com/article/doi/10.3934/aci.2021003) | 1/6 | None| None
 
-<ul>
-{% for website in site.data.social %}
-<li>{{website.sitename }}：<a href="{{ website.url }}" target="_blank">@{{ website.name }}</a></li>
-{% endfor %}
-{% if site.url contains 'mazhuang.org' %}
-<li>
-微信公众号：<br />
-<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ site.url }}/assets/images/qrcode.jpg" alt="闷骚的程序员" />
-</li>
-{% endif %}
-</ul>
+## 1.2次要
+见 [Loops](https://loop.frontiersin.org/people/1605134/publications)
 
 
-## Skill Keywords
+# 2.专利
 
-{% for skill in site.data.skills %}
-### {{ skill.name }}
-<div class="btn-inline">
-{% for keyword in skill.keywords %}
-<button class="btn btn-outline" type="button">{{ keyword }}</button>
-{% endfor %}
-</div>
-{% endfor %}
+北京专利局电话，专利状态查询：01062356655
+
+名称|专利号|位次|状态
+---|---|---|---
+一种基于人工神经网络的服饰设计方法 | 2022100000805 | 1 |2022.02 初审合格； 等待公布 提前公布申明 实审申请
+一种基于人工神经网络提取图片指纹特征的聚类方法 | 202210446305.X | 1 | 2022.07 初审合格； 等待公布 提前公布申明 实审申请
+一种精准作业农业机器人 | 202220857820.2 |  2 |专利证书正在制作
