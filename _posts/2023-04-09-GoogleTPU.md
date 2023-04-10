@@ -12,6 +12,8 @@ onTop: false
 comments: true
 ---
 
+# 1 Prepartion
+
 Step 1 : [Install Google Cloud CLI](https://cloud.google.com/sdk/docs/install?hl=zh-cn) on powershell
 
 ```shell
@@ -98,3 +100,7 @@ Step 3 : Use XShell to connect
 - Use `Putty key gen` to export a private key.
 
 - Create a new session on XShell with specificed `Connection->Proxy` and `Connection->User Auth->Method->Pub Key`
+
+# 2 Use for training
+
+I perfer to 

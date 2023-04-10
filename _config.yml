@@ -1,99 +1,190 @@
-# Site settings
-title: Xuetao Blog
-SEOTitle:  Free techic blogs and open souce code
-header-img: img/post-bg-index.jpg
-email: jiangxt21@lzu.edu.cn
-description: "CSDN is totally garbage"
-keyword: "ML, AgRobot, CV"
-url: "https://JChrysanthemum.github.io/"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/JChrysanthemum/JChrysanthemum.github.io.git" # you code repository
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: https://mazhuang.org
+date_format: "ordinal"
+title: 码志
+subtitle: "公众号：闷骚的程序员"
+description: "马壮的个人博客，公众号：闷骚的程序员"
+keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+timezone: Asia/Shanghai
+encoding: "utf-8"
+# 页面左下角显示的年份
+since: 2015
+# 源码仓库，请替换成自己的
+repository: mzlogin/mzlogin.github.io
+# 对 css 和 js 资源的 cdn 加速配置
+cdn:
+    jsdelivr:
+        enabled: false
+# 可选组件配置
+components:
+    # 分享
+    # weibo,qq,wechat,douban,qzone,linkedin,facebook,twitter
+    share:
+        enabled: false
+        hide-platforms: qq,facebook
+    # 不蒜子访问统计
+    busuanzi:
+        enabled: false
+        start_date: 2020-05-03
+    # My Popular Repositories
+    side_bar_repo:
+        enabled: true
+        limit: 5
+    # 文章字数统计
+    word_count:
+        enabled: true
+    # 页面右上角，以及「关于」页面的二维码
+    # 修改图片请替换 assets/images/qrcode.jpg
+    qrcode:
+        enabled: true
+        image_alt: 闷骚的程序员
+    # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
+    wiki:
+        view: cate
+    # 图片灯箱效果功能
+    fancybox:
+        enabled: false
+# 压缩页面内容
+compress_html:
+  clippings: all
+  comments: ["<!--", "-->"]
+# 代码高亮风格，支持的 theme 列表见 https://github.com/mzlogin/rouge-themes
+highlight_theme: github
 
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Keep trying"
-sidebar-avatar: /img/blogImg.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: Zhuang Ma
+organization: 
+organization_url: 
+github_username: mzlogin
+location: Wuhan, China
+email: chumpma@gmail.com
 
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
 
+  -
+    href: /categories/
+    label: 分类
 
-# SNS settings
-RSS: false
-# weibo_username:     
-# zhihu_username:     
-github_username:    JChrysanthemum
-# facebook_username:  username
-# jianshu_username:   jianshu_id
-# twitter_username:   
+#   -
+#     href: /archives/
+#     label: 归档
 
+#   -
+#     href: /open-source/
+#     label: 开源
 
-# Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+  -
+    href: /wiki/
+    label: 维基
 
+  -
+    href: /links/
+    label: 链接
 
+  -
+    href: /about/
+    label: 关于
 
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
 
-
-
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
 markdown: kramdown
-highlighter: rouge
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+    input: GFM
+highlighter: rouge
+paginate: 10
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+plugins:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+    fragments:
+        output: true
+        permalink: /fragment/:path/
 
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk, utterances, beaudar, giscus
+comments_provider: giscus
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+# disqus 配置参考：https://disqus.com
+disqus:
+    username: 
+# gitment 配置参考：https://imsun.net/posts/gitment-introduction/
+gitment:
+    owner: mzlogin
+    repo: blog-comments
+    oauth:
+        client_id: d2e1cbbd298958076462
+        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+# gitalk 配置参考：https://github.com/gitalk/gitalk#install
+gitalk:
+    owner: mzlogin
+    repo: blog-comments
+    clientID: d2e1cbbd298958076462
+    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+# utterances 配置参考：https://utteranc.es/
+utterances:
+    repo: mzlogin/blog-comments
+# beaudar 配置参考：https://beaudar.lipk.org/
+beaudar:
+    repo: mzlogin/blog-comments
+# giscus 配置参考：https://giscus.app/zh-CN
+giscus:
+    repo: mzlogin/blog-comments
+    repo-id: MDEwOlJlcG9zaXRvcnk5MzEyNzkxNw==
+    category: Announcements
+    category-id: DIC_kwDOBY0E7c4CRtg9
+# 在使用其它评论组件时可点击显示 Disqus
+lazy_load_disqus : false
 
+# ---------------- #
+#      Search      #
+# ---------------- #
+simple_jekyll_search:
+    # 是否支持全文搜索
+    fulltext: false
+    # 最多显示多少条搜索结果
+    limit: 10
 
-# 评论系统
-# Disqus (https://disqus.com/)
-disqus_username: XueTao
-
-# Gitalk
-# gitalk:
-  # enable: true    #是否开启Gitalk评论
-  # clientID: f3938da580657eb0156e                            #生成的clientID
-  # clientSecret: bb6936b94eece42cb0910d9935ef1190f4d9e1f0    #生成的clientSecret
-  # repo: JChrysanthemum.github.io    #仓库名称
-  # owner: JChrysanthemum    #github用户名
-  # admin: JChrysanthemum
-  # distractionFreeMode: true #是否启用类似FB的阴影遮罩
-
-
-# 统计
-
-# Analytics settings
-# Baidu Analytics
-# ba_track_id: b50bf2b12b5338a1845e33832976fd68
-
-# Google Analytics
-#ga_track_id: 'UA-137811562-1'            # Format: UA-xxxxxx-xx
-#ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
-
-
-# Featured Tags
-featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
-
-
-# Progressive Web Apps
-chrome-tab-theme-color: "#000000"
-service-worker: true
-
-
-# Friends
-# friends: [
-# {title: "书舟网",href: "http://kindle.archiew.top/"},
-# {title: "阮一峰",href: "http://www.ruanyifeng.com/home.html"},
-# {title: "阿里巴巴",href: "https://www.alibabagroup.com/cn/global/home"},
-# {title: "腾讯",href: "https://www.tencent.com/zh-cn/index.html"},
-# {title: "字节跳动",href: "https://www.bytedance.com/zh"}
-# ]
+# ---------------- #
+#      Google      #
+# ---------------- #
+google:
+    analytics_id: UA-80669434-1
+    adsense:
+        footer: true
+        sidebar: true 
+        sidebar-detail: true 
+        content_header: false
+        content_footer: false
