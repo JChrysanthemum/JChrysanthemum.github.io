@@ -1281,8 +1281,8 @@ footer .copyright a:focus {
 .floating-label-form-group textarea {
   z-index: 1;
   position: relative;
-  padding-right: 0;
-  padding-left: 0;
+  padding-right: 15px;
+  padding-left: 15px;
   border: none;
   border-radius: 0;
   font-size: 1.5em;
