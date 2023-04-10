@@ -301,6 +301,7 @@ button.paper-button {
 }
 .highlight,
 pre.highlight {
+  padding: 35px 35px;
   background: #282c34;
   color: #abb2bf;
 }
