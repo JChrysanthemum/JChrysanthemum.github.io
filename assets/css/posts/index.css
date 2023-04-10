@@ -4,7 +4,7 @@
 
 .post-directory {
     font-size: 14px;
-    background: #fff;
+    background: #3d3d3d;
     overflow: hidden;
     width: 300px;
     padding-bottom: 1em;
@@ -25,13 +25,13 @@
 
 .post-directory a {
     text-decoration: none;
-    color: #bababa;
+    color: #ededed;
 }
 
 .post-directory a:hover,
 .post-directory a:active,
 .post-directory a.on {
-    color: #4183c4;
+    color: #7ebfff;
 }
 
 .posts-list {

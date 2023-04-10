@@ -236,6 +236,22 @@
     color: #c00
 }
 
+/* Add for () */
+.markdown-body .highlight .o {
+    color: #c6c6c6;
+    font-weight: bold;
+}
+
+/* Add for url */
+.markdown-body .highlight .nt {
+    color: #5aabff;
+}
+
+.markdown-body .highlight .kn, .markdown-body .highlight .k, .markdown-body .highlight .kv{
+    color: #d5d5d5;
+    font-weight: bold;
+}
+
 .markdown-body .anchor {
     position: absolute;
     top: 0;
@@ -388,7 +404,8 @@
     width: 100%;
     overflow: auto;
     word-break: normal;
-    word-break: keep-all
+    word-break: keep-all;
+    color: #181818;
 }
 
 .markdown-body table td,.markdown-body table th {
@@ -536,7 +553,8 @@
 }
 
 .markdown-body .highlight {
-    margin-bottom: 16px
+    margin-bottom: 16px;
+    background-color: #1b1b1b
 }
 
 .markdown-body .highlight pre,.markdown-body pre {
@@ -734,6 +752,8 @@ div.footnotes::before {
     border-top: 1px solid #ccc;
     width: 20%
 }
+
+
 
 img + em {
   color: grey;
