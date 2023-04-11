@@ -247,6 +247,11 @@
     color: #5aabff;
 }
 
+/* Add for url */
+.markdown-body .highlight .pl {
+    color: #5aabff;
+}
+
 .markdown-body .highlight .kn, .markdown-body .highlight .k, .markdown-body .highlight .kv{
     color: #d5d5d5;
     font-weight: bold;
@@ -521,11 +526,28 @@
     text-align: right
 }
 
-.markdown-body code,.markdown-body tt {
+.markdown-body code {
     padding: .2em 0;
     margin: 0;
     font-size: 85%;
     background-color: rgba(0,0,0,.04);
+    color: #5ff092; 
+    /* Add for `` color */
+    /* border-radius: 3px */
+}
+
+.markdown-body code .highlight {
+    margin-bottom: 16px;
+    background-color: #ff3333
+}
+
+
+.markdown-body tt {
+    padding: .2em 0;
+    margin: 0;
+    font-size: 85%;
+    background-color: rgba(0,0,0,.04);
+    color: rgb(246, 69, 69)
     /* border-radius: 3px */
 }
 
