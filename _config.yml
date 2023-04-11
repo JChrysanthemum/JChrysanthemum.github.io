@@ -70,31 +70,31 @@ email: jiangxt21@lzu.edu.cn
 navs:
   -
     href: /
-    label: 首页
+    label: HOME
 
   -
     href: /categories/
-    label: 分类
+    label: CATE
 
 #   -
 #     href: /archives/
-#     label: 归档
+#     label: ARCH
 
 #   -
 #     href: /open-source/
-#     label: 开源
+#     label: OPSC
 
   -
     href: /wiki/
-    label: 维基
+    label: WIKI
 
   -
     href: /links/
-    label: 链接
+    label: LINKS
 
   -
     href: /about/
-    label: 关于
+    label: ABOUT
 
 # ---------------- #
 #       RSS        #
