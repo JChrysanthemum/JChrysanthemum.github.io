@@ -11,6 +11,7 @@ tags:
 onTop: false
 comments: true
 ---
+**TPU v2 slower about 30% for even RTX 2070 in pytorch-lightning**. You can try if you are working with tensorflow. Or, forget free TPU. Much slower, and many bugs with poorly documentation.
 
 # 1 Prepartion
 
@@ -103,4 +104,31 @@ Step 3 : Use XShell to connect
 
 # 2 Use for training
 
-I perfer to 
+My get my first free gpu with `v2-8`. Although they [recommend](https://cloud.google.com/tpu/docs/pytorch-xla-ug-tpu-vm?hl=zh-cn#prjt) to set `PJRT` env, it proves that `PJRT` failed but old `XRT` works with torch-1.10. The supposed env variables set below.
+
+```shell
+export XRT_TPU_CONFIG="localservice;0;localhost:51011"
+```
+
+I perfer to use `virtual env` to manage my projects. But there is no docs about python virtual env. And I found the tips from this [github issue](https://github.com/tensorflow/tensorflow/issues/52149#issuecomment-946100527) : The tpu-specificed packages are under `/usr/share/tpu/`. However, only tensorflow packages. So I create venv by copying system packages for pytorch repos.
+
+```shell
+virtualenv -p python3.8 vtorch --system-site-packages
+```
+
+However, the following errors occurs
+```shell
+...
+ImportError: cannot import name 'notf' from 'tensorboard.compat'
+...
+TypeError: Descriptors cannot not be created directly.                    If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.                            If you cannot immediately regenerate your protos, some other possible workarounds are:                                                               1. Downgrade the protobuf package to 3.20.x or lower.                     2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use p
+ure-Python parsing and will be much slower).
+...
+RuntimeError: tensorflow/compiler/xla/xla_client/xrt_local_service.cc:56 : Check failed: tensorflow::NewServer(server_def, &server_) == ::tensorflow::Status::OK() (UNKNOWN: Could not start gRPC server vs. OK)
+```
+
+The post that suggest change `jax` and `jaxlib` not work. I followed the above out to downgrade `protobuf` from 4.22.1 to 3.20 fix the problem.
+
+I use pytorch-lightning for training, follow the [only-turtorial](https://lightning.ai/docs/pytorch/stable/notebooks/lightning_examples/datamodules.html), fix the probelm of lightning version and so on. Very sad.
+
+**TPU slower about 30% for even RTX 2070**.
