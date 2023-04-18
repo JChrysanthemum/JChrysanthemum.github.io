@@ -1,16 +1,17 @@
 ---
-layout:     post
-title:      [Google TPU from zero]
-subtitle:   [30-days free TPU to go]
-date:       [2023-04-09]
-author:     J.C.
-header-img: img/post-bg-article.jpg
-catalog: true
-tags:
-    - ML
-onTop: false
-comments: true
+layout: post
+title: Google TPU from zero
+categories: [Note]
+description: 30-days free TPU to go
+keywords: Google, TPU
+mermaid: false
+sequence: false
+flow: false
+mathjax: false
+mindmap: false
+mindmap2: false
 ---
+
 **TPU v2 slower about 30% for even RTX 2070 in pytorch-lightning**. You can try if you are working with tensorflow. Or, forget free TPU. Much slower, and many bugs with poorly documentation.
 
 # 1 Prepartion
