@@ -4,6 +4,7 @@ title: Google TPU from zero
 categories: [Note]
 description: 30-days free TPU to go
 keywords: Google, TPU
+date: [2023-04-09]
 mermaid: false
 sequence: false
 flow: false
