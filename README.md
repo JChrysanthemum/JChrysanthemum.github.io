@@ -6,6 +6,6 @@ Oringial repo：[码志](https://github.com/mzlogin/mzlogin.github.io)
 
 更改原博客的部分配色，使整体颜色为暗色系。
 
-![screenshot home](https://mazhuang.org/assets/images/screenshots/BlogStyle.png)
+![screenshot home](https://raw.githubusercontent.com/JChrysanthemum/JChrysanthemum.github.io/master/assets/images/screenshots/BlogStyle.png)
 
 <!-- bundle exec jekyll serve -->
