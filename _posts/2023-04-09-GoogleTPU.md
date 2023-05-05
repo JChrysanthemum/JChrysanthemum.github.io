@@ -131,6 +131,6 @@ RuntimeError: tensorflow/compiler/xla/xla_client/xrt_local_service.cc:56 : Check
 
 The post that suggest change `jax` and `jaxlib` not work. I followed the above out to downgrade `protobuf` from 4.22.1 to 3.20 fix the problem.
 
-I use pytorch-lightning for training, follow the [only-turtorial](https://lightning.ai/docs/pytorch/stable/notebooks/lightning_examples/datamodules.html), fix the probelm of lightning version and so on. Very sad.
+I use pytorch-lightning for training, follow the [only-tutorial](https://lightning.ai/docs/pytorch/stable/notebooks/lightning_examples/datamodules.html), fix the probelm of lightning version and so on. Very sad.
 
 **TPU slower about 30% for even RTX 2070**.

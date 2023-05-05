@@ -25,6 +25,7 @@ mindmap2: false
  make specific together |  ./src/catkin/bin/catkin_make -DCMAKE_INSTALL_PREFIX=/opt/ros/melodic --only-pkg-with-deps <package1> install
  make individual | ./src/catkin/bin/catkin_make_isolated  --install-space=/opt/ros/melodic --install
  make specific indivdual | ./src/catkin/bin/catkin_make_isolated  --install-space=/opt/ros/melodic --pkg  <package1>  --install
+ rosdep install only apt | rosdep install --from-paths src --ignore-src -r -y --skip-keys python --skip-keys gazebo
 
 
 
