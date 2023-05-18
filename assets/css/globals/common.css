@@ -87,7 +87,7 @@
 
 .site-header h1 a {
     white-space: nowrap;
-    color: #333
+    color: #e6e6e6
 }
 
 .site-header h1 a:hover {
@@ -134,7 +134,7 @@
     padding: 6px 10px 15px;
     margin-left: 1.25rem;
     font-size: 1rem;
-    color: #777
+    color: #e6e6e6
 }
 
 .site-footer:after,.site-footer:before {
