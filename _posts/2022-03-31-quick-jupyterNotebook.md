@@ -117,16 +117,20 @@ You need do transfer twice. First, in notebook server, transfer prot to another 
 
 Sounds complex, there is a situation:
 
-```txt
+```
 PC --> ServerA <-- ServerB
 
 ServerB is your notebook server, ServerA is common accessable.
 
-PC want use 1234 at browser, ServerB(userB@192.168.1.5) have 8888 on jupyter-notenook, ServerA(userA@200.100.5.3) coud use 9999 to bind.
+PC want use 1234 at browser, 
+ServerB(userB@192.168.1.5) have 8888 on jupyter-notenook, 
+ServerA(userA@200.100.5.3) could use 9999 to bind.
 ```
 
 ```shell
 # Run at ServerB
 ssh -fNR 8888:localhost:9999 userA@200.100.5.3
+
+# Run at Local PC
 ssh -N -L 1234:localhost:9999 userA@200.100.5.3
 ```
