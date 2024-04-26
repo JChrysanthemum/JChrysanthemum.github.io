@@ -99,6 +99,12 @@ Edit or create `nbconfig/notebook.json`
     "cm_config": {
       "lineWrapping": true
     }
+  },
+  "Cell": {
+    "cm_config": {
+      "lineNumbers": true,
+      "lineWrapping": true
+    }
   }
 }
 ```
