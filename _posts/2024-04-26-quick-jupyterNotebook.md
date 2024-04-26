@@ -2,7 +2,7 @@
 layout:     post
 title:      [Quick jupyter on server]
 subtitle:   [JupyterNotebook config and web on local]
-date:       [2022-03-31]
+date:       [2024-04-26]
 author:     J.C.
 header-img: img/post-bg-article.jpg
 catalog: true
@@ -62,6 +62,49 @@ run this in tmux or screen.
 jupyter notebook
 ```
 
+## 2.4 Notebook customizztion
+
+### 2.4.1 Jupyter theme
+
+For jupyter theme, detail in [git repo](https://github.com/dunovank/jupyter-themes)
+```python
+jt -t oceans16 -nfs 22 -tfs 22 -fs 20 -cellw 1280 -lineh 150 -ofs 16 -dfs 16
+```
+### 2.4.2 Cell stentch and auto-warp
+
+Code and markdown cell auto-strentch. [source](https://stackoverflow.com/questions/36419342/how-to-wrap-code-text-in-jupyter-notebooks)
+
+Find config file directoy
+```
+jupyter --config-dir
+
+# Windows
+# %HOMEDRIVE%%HOMEPATH%\.jupyter
+
+# Linux
+# ~/.jupyter
+```
+
+Edit or create `nbconfig/notebook.json`
+
+```json
+{
+  "MarkdownCell": {
+    "cm_config": {
+      "lineNumbers": true,
+      "lineWrapping": true
+    }
+  },
+  "CodeCell": {
+    "cm_config": {
+      "lineWrapping": true
+    }
+  }
+}
+```
+
+Restart Jupyter and reload your notebook.
+
 # 3 Use SSH tunnel to boardcast your web
 Note: Xmanger is slow
 
@@ -79,11 +122,6 @@ Keep your venv acivated `(venv) ~/PATH`
 ```
 
 Then it will auto config the kernel.json file
-
-For jupyter theme
-```python
-jt -t oceans16 -nfs 22 -tfs 22 -fs 20 -cellw 1280 -lineh 150 -ofs 16 -dfs 16
-```
 
 # 5 Notebook on internal server
 
