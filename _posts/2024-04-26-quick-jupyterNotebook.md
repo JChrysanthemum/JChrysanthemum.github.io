@@ -70,7 +70,7 @@ For jupyter theme, detail in [git repo](https://github.com/dunovank/jupyter-them
 ```python
 jt -t oceans16 -nfs 22 -tfs 22 -fs 20 -cellw 1280 -lineh 150 -ofs 16 -dfs 16
 ```
-### 2.4.2 Cell stentch and auto-warp
+### 2.4.2 Cell stretch and auto-warp
 
 Code and markdown cell auto-strentch. [source](https://stackoverflow.com/questions/36419342/how-to-wrap-code-text-in-jupyter-notebooks)
 
