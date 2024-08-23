@@ -124,7 +124,13 @@ ssh -N -L 1111:localhost:2222 user@0.0.0.0
 Keep your venv acivated `(venv) ~/PATH`
 
 ```bash
- python -m ipykernel install --user --name=<NAME>
+python -m ipykernel install --user --name=<NAME>
+```
+
+For windows without venv:
+
+```bash
+%HOMEDRIVE%%HOMEPATH%\AppData\Local\Programs\Python\Python312\python.exe -m ipykernel install --user --name=<NAME>
 ```
 
 Then it will auto config the kernel.json file
