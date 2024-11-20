@@ -45,8 +45,9 @@ plt.rc('ytick', labelsize=SMALL_SIZE)    # fontsize of the tick labels
 plt.rc('legend', fontsize=SMALL_SIZE)    # legend fontsize
 plt.rc('figure', titlesize=BIGGER_SIZE)  # fontsize of the figure title
 ```
+Seaborn detail in [SeabornPlotConfig.md](2024-09-23-SeabornPlotConfig.md)
 
-# x. Color
+# 2. Color
 https://matplotlib.org/stable/users/prev_whats_new/dflt_style_changes.html
 
 Color|Hex
@@ -62,3 +63,20 @@ Color|Hex
 <span style="color:#bcbd22">████████████████ </span> | '#bcbd22'
 <span style="color:#17becf">████████████████ </span> | '#17becf'
 
+## 3 Custom table width percentage
+
+Add width control before markdown table
+
+```text
+<style>
+table th:first-of-type {
+    width: 15%;
+}
+table th:nth-of-type(2) {
+    width: 65%;
+}
+table th:nth-of-type(3) {
+    width: 15%;
+}
+</style>
+```
