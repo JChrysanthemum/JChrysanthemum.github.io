@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Steamdeack plugin loader install] page
+title: Steamdeack plugin loader install
 categories: [cate1, cate2]
 description: some word here
 keywords: keyword1, keyword2

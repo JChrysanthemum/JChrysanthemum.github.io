@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hexman Echo Robot Platform page
+title: Hexman Echo Robot Platform
 categories: [cate1, cate2]
 description: some word here
 keywords: keyword1, keyword2

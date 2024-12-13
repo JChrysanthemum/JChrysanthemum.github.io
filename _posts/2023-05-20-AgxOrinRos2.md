@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jetson AGX Orin ROS 2 Set-up page
+title: Jetson AGX Orin ROS 2 Set-up
 categories: [cate1, cate2]
 description: some word here
 keywords: keyword1, keyword2

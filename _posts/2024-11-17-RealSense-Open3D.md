@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [RealSense-Open3D] page
+title: RealSense-Open3D
 categories: [cate1, cate2]
 description: some word here
 keywords: keyword1, keyword2

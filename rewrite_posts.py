@@ -49,7 +49,7 @@ def new_head(title,description):
 # ---""" % (title,description)
     s="""---
 layout: post
-title: %s page
+title: %s
 categories: [cate1, cate2]
 description: some word here
 keywords: keyword1, keyword2
@@ -72,6 +72,7 @@ for file in fs:
     with open(pj(back_up_path,file),"r",encoding="utf-8") as f :
         txt = f.read()
         res,content = style_formate(txt)
+        res["title"] = res["title"].replace("[","").replace("]","")
         if "description" in res:
             des = res["description"]
         elif "subtitle" in res:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Pi4+Raspbian+Turtle3] page
+title: Pi4+Raspbian+Turtle3
 categories: [cate1, cate2]
 description: some word here
 keywords: keyword1, keyword2

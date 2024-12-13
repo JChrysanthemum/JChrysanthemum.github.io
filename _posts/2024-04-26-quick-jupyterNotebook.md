@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Quick jupyter on server] page
+title: Quick jupyter on server
 categories: [cate1, cate2]
 description: some word here
 keywords: keyword1, keyword2

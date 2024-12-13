@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Matplotlib Common] page
+title: Matplotlib Common
 categories: [cate1, cate2]
 description: some word here
 keywords: keyword1, keyword2

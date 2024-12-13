@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MathTextPro setup in TexLive page
+title: MathTextPro setup in TexLive
 categories: [cate1, cate2]
 description: some word here
 keywords: keyword1, keyword2

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Steam Deck Configs] page
+title: Steam Deck Configs
 categories: [cate1, cate2]
 description: some word here
 keywords: keyword1, keyword2

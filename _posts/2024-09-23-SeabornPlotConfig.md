@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Seaborn env config] page
+title: Seaborn env config
 categories: [cate1, cate2]
 description: some word here
 keywords: keyword1, keyword2
