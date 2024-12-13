@@ -1,6 +1,6 @@
 ---
 layout: post
-title: RealSense-Open3D
+title: RealSense Open3D
 categories: [Robot]
 description: 3D recontruction
 keywords: Robot, realsense
