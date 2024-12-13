@@ -2,7 +2,7 @@
 layout: post
 title: RealSenseOpen3D
 categories: [cate1, cate2]
-description: some word here
+description: old version but new name
 keywords: keyword1, keyword2
 mermaid: false
 sequence: false
