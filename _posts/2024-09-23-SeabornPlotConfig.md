@@ -1,9 +1,9 @@
 ---
 layout: post
-title: template page
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
+title: Seaborn config for fonts and figure size
+categories: [Paper]
+description: Font size and figure (one and multi) size for high resolution.
+keywords: python, plot
 mermaid: false
 sequence: false
 flow: false

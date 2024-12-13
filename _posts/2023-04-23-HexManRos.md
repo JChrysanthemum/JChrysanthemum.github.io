@@ -1,9 +1,9 @@
 ---
 layout: post
-title: template page
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
+title: Ros setup for package of HexMan platform
+categories: [Robot]
+description: 
+keywords: diy
 mermaid: false
 sequence: false
 flow: false

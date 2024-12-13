@@ -1,9 +1,9 @@
 ---
 layout: post
-title: template page
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
+title: Decky for steamdeck
+categories: [Fun]
+description: Decky config and install notes
+keywords: game, diy
 mermaid: false
 sequence: false
 flow: false

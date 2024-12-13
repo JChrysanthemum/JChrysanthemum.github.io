@@ -1,9 +1,9 @@
 ---
 layout: post
-title: template page
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
+title: Orange Pi env setup
+categories: [Server]
+description: Web Scrxping sever setup
+keywords: diy
 mermaid: false
 sequence: false
 flow: false

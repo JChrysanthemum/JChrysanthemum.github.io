@@ -1,9 +1,9 @@
 ---
 layout: post
-title: template page
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
+title: MathTextPro Setup
+categories: [Paper]
+description: MathTextPro font installaiton for latex
+keywords: latex
 mermaid: false
 sequence: false
 flow: false

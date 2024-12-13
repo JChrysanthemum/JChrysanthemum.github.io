@@ -1,9 +1,9 @@
 ---
 layout: post
-title: template page
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
+title: RealSese with Open3D
+categories: [Robot]
+description: 3D reconstruction by Open3D, using point clouds from realsense
+keywords: ros, rgbd
 mermaid: false
 sequence: false
 flow: false

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: template page
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
+title: Jupyter notebook quick customization
+categories: [Paper]
+description: Notebook installation and theme config
+keywords: python
 mermaid: false
 sequence: false
 flow: false

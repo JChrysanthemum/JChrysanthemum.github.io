@@ -1,9 +1,9 @@
 ---
 layout: post
-title: template page
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
+title: Matplotlib font size and color 
+categories: [Paper]
+description: 
+keywords: python, plot
 mermaid: false
 sequence: false
 flow: false

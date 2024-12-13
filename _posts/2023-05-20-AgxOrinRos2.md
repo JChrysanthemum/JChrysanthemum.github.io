@@ -1,9 +1,9 @@
 ---
 layout: post
-title: template page
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
+title: Install ROS 2 on AgxOrin
+categories: [Robot]
+description: install note
+keywords: diy
 mermaid: false
 sequence: false
 flow: false
