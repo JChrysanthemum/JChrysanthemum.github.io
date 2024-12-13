@@ -1,17 +1,3 @@
----
-layout: post
-title: Literature management
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
-mermaid: false
-sequence: false
-flow: false
-mathjax: false
-mindmap: false
-mindmap2: false
----
-
 **Preparation**: Win10+, browser could access academic resources.
 
 Zotero + zutilo + RBTray + Joplin + Texlive with vscode

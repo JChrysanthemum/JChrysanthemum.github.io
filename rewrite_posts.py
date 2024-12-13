@@ -85,6 +85,6 @@ for file in fs:
     #     print("File exists, ignored", pj(new_path,file))
     #     continue
     shutil.copy(pj(new_path,"template.md"),pj(new_path,file))
-    with open(pj(new_path,file),"w",encoding="utf-8") as f :
-        f.write(new_txt)
+    with open(pj(new_path,file),"w+",encoding="utf-8") as f :
+        f.write(content)
 

@@ -1,17 +1,3 @@
----
-layout: post
-title: Pi4+Raspbian+Turtle3
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
-mermaid: false
-sequence: false
-flow: false
-mathjax: false
-mindmap: false
-mindmap2: false
----
-
 # Install all from source (git)
 
 Official [recommend](https://emanual.robotis.com/docs/en/platform/turtlebot3/sbc_setup/#sbc-setup) use `Ubuntu server` to install ros and other package from `apt`. However, this may cause problem below:

@@ -1,17 +1,3 @@
----
-layout: post
-title: Google TPU from zero
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
-mermaid: false
-sequence: false
-flow: false
-mathjax: false
-mindmap: false
-mindmap2: false
----
-
 **TPU v2 slower about 30% for even RTX 2070 in pytorch-lightning**. You can try if you are working with tensorflow. Or, forget free TPU. Much slower, and many bugs with poorly documentation.
 
 # 1 Prepartion

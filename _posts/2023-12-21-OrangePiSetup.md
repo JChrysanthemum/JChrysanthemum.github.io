@@ -1,17 +1,3 @@
----
-layout: post
-title: Orange Pi 5 Plus Set up
-categories: [cate1, cate2]
-description: some word here
-keywords: keyword1, keyword2
-mermaid: false
-sequence: false
-flow: false
-mathjax: false
-mindmap: false
-mindmap2: false
----
-
 **Preparation**: Debian flashed board.
 
 # 1. Proxy

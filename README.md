@@ -8,4 +8,13 @@ Oringial repo：[码志](https://github.com/mzlogin/mzlogin.github.io)
 
 ![screenshot home](https://raw.githubusercontent.com/JChrysanthemum/JChrysanthemum.github.io/master/assets/images/screenshots/BlogStyle.png)
 
+
+<!-- 
+SET HTTP_PROXY=http://127.0.0.1:7890
+SET HTTPS_PROXY=%HTTP_PROXY
+bundle install
+
+bundle exec jekyll serve
+% -->
+
 <!-- bundle exec jekyll serve -->

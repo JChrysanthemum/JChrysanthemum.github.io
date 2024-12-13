@@ -11,13 +11,3 @@ mathjax: false
 mindmap: false
 mindmap2: false
 ---
-
-Content here
-
-<!-- 
-SET HTTP_PROXY=http://127.0.0.1:7890
-SET HTTPS_PROXY=%HTTP_PROXY
-bundle install
-
-bundle exec jekyll serve
-% -->
