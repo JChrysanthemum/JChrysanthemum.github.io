@@ -1,3 +1,16 @@
+---
+layout: post
+title: template page
+categories: [cate1, cate2]
+description: some word here
+keywords: keyword1, keyword2
+mermaid: false
+sequence: false
+flow: false
+mathjax: false
+mindmap: false
+mindmap2: false
+---
 Install Realsense SDK on WIN: Intel.RealSense.SDK-WIN10-<version> in [git release](https://github.com/IntelRealSense/librealsense/releases), record a RGBD bag by realsense viewer.
 
 # 1. Installation

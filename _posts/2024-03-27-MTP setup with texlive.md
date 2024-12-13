@@ -1,3 +1,16 @@
+---
+layout: post
+title: template page
+categories: [cate1, cate2]
+description: some word here
+keywords: keyword1, keyword2
+mermaid: false
+sequence: false
+flow: false
+mathjax: false
+mindmap: false
+mindmap2: false
+---
 MathTextPro(MTP) is a math font package. The lite version is free and good enough for most cases.
 
 **Preparation**: Texlive installed.
