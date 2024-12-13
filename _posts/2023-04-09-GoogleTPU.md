@@ -11,6 +11,7 @@ mathjax: false
 mindmap: false
 mindmap2: false
 ---
+
 **TPU v2 slower about 30% for even RTX 2070 in pytorch-lightning**. You can try if you are working with tensorflow. Or, forget free TPU. Much slower, and many bugs with poorly documentation.
 
 # 1 Prepartion

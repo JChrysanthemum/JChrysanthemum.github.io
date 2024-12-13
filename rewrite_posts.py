@@ -1,6 +1,7 @@
 from os.path import join as pj
 from os import listdir,mkdir
 from os.path import isfile,exists
+import shutil
 
 def list_files(mypath, end = None):
     if end is None:
@@ -83,6 +84,7 @@ for file in fs:
     # if exists(pj(new_path,file)):
     #     print("File exists, ignored", pj(new_path,file))
     #     continue
+    shutil.copy(pj(new_path,"template.md"),pj(new_path,file))
     with open(pj(new_path,file),"w",encoding="utf-8") as f :
         f.write(new_txt)
 

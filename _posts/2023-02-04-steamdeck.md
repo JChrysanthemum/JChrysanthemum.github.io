@@ -11,6 +11,7 @@ mathjax: false
 mindmap: false
 mindmap2: false
 ---
+
 # 1. Preparation
 
 Make steam deck available on CLI.

@@ -11,6 +11,7 @@ mathjax: false
 mindmap: false
 mindmap2: false
 ---
+
 **Preparation**: Debian flashed board.
 
 # 1. Proxy

@@ -11,6 +11,7 @@ mathjax: false
 mindmap: false
 mindmap2: false
 ---
+
 # 1.Font config
 
 [Matplotlib Common](./2022-10-26-Matplotlib%20Common.md) to install font **Times New Roman**. A little different in font rc settings for seaborn.

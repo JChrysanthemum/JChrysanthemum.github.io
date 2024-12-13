@@ -11,6 +11,7 @@ mathjax: false
 mindmap: false
 mindmap2: false
 ---
+
 # 1.Install script
 
 Official [Decky](https://decky.xyz/)
