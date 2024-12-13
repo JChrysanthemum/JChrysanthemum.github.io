@@ -12,20 +12,6 @@ mindmap: false
 mindmap2: false
 ---
 
-<!-- ---
-layout:     post
-title:      [RealSense-Open3D]
-subtitle:   [3D recontruction]
-date:       [2024-11-17]
-author:     J.C.
-header-img: img/post-bg-article.jpg
-catalog: true
-tags:
-    - Jupyter Notebook
-onTop: false
-comments: true
---- -->
-
 
 Install Realsense SDK on WIN: Intel.RealSense.`SDK-WIN10-<version>` in [git release](https://github.com/IntelRealSense/librealsense/releases), record a RGBD bag by realsense viewer.
 
