@@ -79,7 +79,7 @@ for file in fs:
             des = res["subtitle"]
         else:
             des = ""
-        new_txt = new_head(res["title"],des) + "\n" + content
+        new_txt = new_head(res["title"],des) + "\n\n" + content
     # if exists(pj(new_path,file)):
     #     print("File exists, ignored", pj(new_path,file))
     #     continue
