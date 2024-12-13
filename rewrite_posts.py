@@ -84,7 +84,7 @@ for file in fs:
     # if exists(pj(new_path,file)):
     #     print("File exists, ignored", pj(new_path,file))
     #     continue
-    shutil.copy(pj(new_path,"template.md"),pj(new_path,file))
-    # with open(pj(new_path,file),"a",encoding="utf-8") as f :
-    #     f.write("\n Intro \n\n\n" + ("abc"*50 + "\n")*20)
+    # shutil.copy(pj(new_path,"template.md"),pj(new_path,file))
+    with open(pj(new_path,file),"a",encoding="utf-8") as f :
+        f.write("\n Intro \n\n\n" + ("abc"*50 + "\n")*20 + "\n\n")
 
