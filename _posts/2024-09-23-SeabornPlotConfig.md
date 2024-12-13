@@ -1,9 +1,9 @@
 ---
 layout: post
-title: [Seaborn env config]
-categories: 
-description: [Figure size and font family/size configuration]
-keywords: 
+title: [Seaborn env config] page
+categories: [cate1, cate2]
+description: some word here
+keywords: keyword1, keyword2
 mermaid: false
 sequence: false
 flow: false

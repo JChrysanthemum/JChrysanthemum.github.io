@@ -1,9 +1,9 @@
 ---
 layout: post
-title: [DL server backup]
-categories: 
-description: [Common command]
-keywords: 
+title: [DL server backup] page
+categories: [cate1, cate2]
+description: some word here
+keywords: keyword1, keyword2
 mermaid: false
 sequence: false
 flow: false

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: MathTextPro setup in TexLive
-categories: 
-description: MathTextPro font install on windows texlive
-keywords: 
+title: MathTextPro setup in TexLive page
+categories: [cate1, cate2]
+description: some word here
+keywords: keyword1, keyword2
 mermaid: false
 sequence: false
 flow: false

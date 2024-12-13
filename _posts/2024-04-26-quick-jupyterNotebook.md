@@ -1,9 +1,9 @@
 ---
 layout: post
-title: [Quick jupyter on server]
-categories: 
-description: [JupyterNotebook config and web on local]
-keywords: 
+title: [Quick jupyter on server] page
+categories: [cate1, cate2]
+description: some word here
+keywords: keyword1, keyword2
 mermaid: false
 sequence: false
 flow: false

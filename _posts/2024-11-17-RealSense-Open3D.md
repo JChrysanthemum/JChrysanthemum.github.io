@@ -1,9 +1,9 @@
 ---
 layout: post
-title: [RealSense-Open3D]
-categories: 
-description: [3D recontruction]
-keywords: 
+title: [RealSense-Open3D] page
+categories: [cate1, cate2]
+description: some word here
+keywords: keyword1, keyword2
 mermaid: false
 sequence: false
 flow: false

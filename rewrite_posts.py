@@ -34,19 +34,32 @@ def style_formate(txt):
     return res,content
 
 def new_head(title,description):
-    s = """---
+#     s = """---
+# layout: post
+# title: %s
+# categories: 
+# description: %s
+# keywords: 
+# mermaid: false
+# sequence: false
+# flow: false
+# mathjax: false
+# mindmap: false
+# mindmap2: false
+# ---""" % (title,description)
+    s="""---
 layout: post
-title: %s
-categories: 
-description: %s
-keywords: 
+title: %s page
+categories: [cate1, cate2]
+description: some word here
+keywords: keyword1, keyword2
 mermaid: false
 sequence: false
 flow: false
 mathjax: false
 mindmap: false
 mindmap2: false
----""" % (title,description)
+---"""%title
     return s
 
 back_up_path = r'C:\Projects\JChrysanthemum.github.io - 副本 (2)\_posts'

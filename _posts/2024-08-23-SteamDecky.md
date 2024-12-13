@@ -1,9 +1,9 @@
 ---
 layout: post
-title: [Steamdeack plugin loader install]
-categories: 
-description: [Debug and install]
-keywords: 
+title: [Steamdeack plugin loader install] page
+categories: [cate1, cate2]
+description: some word here
+keywords: keyword1, keyword2
 mermaid: false
 sequence: false
 flow: false

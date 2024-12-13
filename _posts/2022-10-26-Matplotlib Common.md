@@ -1,9 +1,9 @@
 ---
 layout: post
-title: [Matplotlib Common]
-categories: 
-description: [Common settings]
-keywords: 
+title: [Matplotlib Common] page
+categories: [cate1, cate2]
+description: some word here
+keywords: keyword1, keyword2
 mermaid: false
 sequence: false
 flow: false

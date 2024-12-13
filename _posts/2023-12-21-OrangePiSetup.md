@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Orange Pi 5 Plus Set up
-categories: 
-description: Env set up
-keywords: 
+title: Orange Pi 5 Plus Set up page
+categories: [cate1, cate2]
+description: some word here
+keywords: keyword1, keyword2
 mermaid: false
 sequence: false
 flow: false

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Literature management
-categories: 
-description: Workflow of tag, save, local link of literatures (papers, webs and misc)
-keywords: 
+title: Literature management page
+categories: [cate1, cate2]
+description: some word here
+keywords: keyword1, keyword2
 mermaid: false
 sequence: false
 flow: false

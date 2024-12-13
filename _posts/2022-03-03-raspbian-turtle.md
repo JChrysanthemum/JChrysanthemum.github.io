@@ -1,9 +1,9 @@
 ---
 layout: post
-title: [Pi4+Raspbian+Turtle3]
-categories: 
-description: [Ros melodic]
-keywords: 
+title: [Pi4+Raspbian+Turtle3] page
+categories: [cate1, cate2]
+description: some word here
+keywords: keyword1, keyword2
 mermaid: false
 sequence: false
 flow: false

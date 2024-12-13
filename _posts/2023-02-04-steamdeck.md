@@ -1,9 +1,9 @@
 ---
 layout: post
-title: [Steam Deck Configs]
-categories: 
-description: [All many good features]
-keywords: 
+title: [Steam Deck Configs] page
+categories: [cate1, cate2]
+description: some word here
+keywords: keyword1, keyword2
 mermaid: false
 sequence: false
 flow: false
