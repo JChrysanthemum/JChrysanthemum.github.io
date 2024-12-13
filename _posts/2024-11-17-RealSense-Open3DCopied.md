@@ -13,7 +13,7 @@ mindmap2: false
 
 ---
 
-old version but new name
+old version but new name with new blank
 
 Install Realsense SDK on WIN: Intel.RealSense.SDK-WIN10-<version> in [git release](https://github.com/IntelRealSense/librealsense/releases), record a RGBD bag by realsense viewer.
 
