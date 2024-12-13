@@ -1,9 +1,9 @@
 ---
 layout: post
-title: DL server backup
-categories: [cate1, cate2]
-description: DLSEVEVER
-keywords: server
+title: [DL server backup]
+categories: 
+description: [Common command]
+keywords: 
 mermaid: false
 sequence: false
 flow: false
@@ -11,8 +11,6 @@ mathjax: false
 mindmap: false
 mindmap2: false
 ---
-
-
 # Location
 
  Name | Cabinets| Other
