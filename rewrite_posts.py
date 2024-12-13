@@ -86,5 +86,5 @@ for file in fs:
     #     continue
     shutil.copy(pj(new_path,"template.md"),pj(new_path,file))
     with open(pj(new_path,file),"a",encoding="utf-8") as f :
-        f.write(("abc"*50 + "\n")*20)
+        f.write("Intro \n" + ("abc"*50 + "\n")*20)
 
