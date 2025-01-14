@@ -55,5 +55,26 @@ Then install base SWs
 
 ```shell
 sudo pacman -S openssh net-tools
+sudo pacman -Sy krfb
 ```
+
+# 2.Game launch option with proton (steamdeck launch stardewvalley with SMAPI)
+
+If you want launch extra mod-embedding for your game on deck, like SMAPI for stardewvalley, you need to make `steam launch option`.
+
+1. You need to find your game's APP ID, `settings->perproties->update`, for me is `413150`.
+2. Then check path for proton. `/home/$USER/.local/share/Steam/steamapps/common/Proton 8.0/proton` if you want steam's proton version. `/home/$USER/.local/share/Steam/compatibilitytools.d/GE-Proton9-5/proton` if you want customed proton.
+3. And your modding executable path. I installed SMAPI into the same location of game.
+
+Here is a sample script
+
+```bash
+#! /usb/bin/bash
+
+export STEAM_COMPAT_DATA_PATH="/home/$USER/.local/share/Steam/steamapps/compatdata/413150"
+export STEAM_COMPAT_CLIENT_INSTALL_PATH=STEAM_COMPAT_DATA_PATH
+/home/$USER/.local/share/Steam/compatibilitytools.d/GE-Proton9-5/proton run "/home/$USER/.local/share/Steam/steamapps/common/Stardew Valley/StardewModdingAPI.exe"
+```
+
+4. Write into a script and fill it in launch options `bash /home/$USER/Scripts/launch_SMAPI.sh %command%`
 

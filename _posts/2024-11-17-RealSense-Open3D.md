@@ -78,6 +78,8 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 pip3 install yapf
 
 # 2. Config
+
+[Nano Build blog](https://zenn.dev/ijiwarunahello/scraps/fee9925b443478)
 cd Open3D
 ./util/install_deps_ubuntu.sh
 mkdir build
