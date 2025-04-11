@@ -78,3 +78,50 @@ export STEAM_COMPAT_CLIENT_INSTALL_PATH=STEAM_COMPAT_DATA_PATH
 
 4. Write into a script and fill it in launch options `bash /home/$USER/Scripts/launch_SMAPI.sh %command%`
 
+# 3 steam os update debug 
+
+Deck can not install new steam OS, and even can not reset.
+
+Go to desktop mode
+
+```shell
+# Manually update and check the output
+steamos-update
+```
+
+## 3.1 Check network access
+
+If deck can not access the image and have no proxy installed.
+
+Download steam-os file manually: [steam-os ftp](https://steamdeck-images.steamos.cloud/steamdeck)
+
+```shell
+# example
+
+wget https://steamdeck-images.steamos.cloud/steamdeck/20250409.1001/steamdeck-20250409.1001-3.8.0.raucb
+
+sudo rauc install steamdeck-20250402.1001-3.8.0.raucb
+```
+
+## 3.2 rauc install error
+
+```shell
+rauc Installation error: Failed updating slot rootfs.0: failed to run casync extract
+```
+
+Then check what happened in rauc: `journalctl -u rauc` and it shows `error while loading shared libraries: libcrypto.so.1.1`
+
+Then, update pacman and try to reinstall openssl 1.1 to fix this. First, you need your root name and password.
+
+If any dependecies break shows, just install it.
+e.g., ostree depends on openssl-3.6, `pacman -Su ostree` 
+
+If `pacman` or `sudo` throughs "libcrypto error" too, switch into root `su root`.
+
+If openssl not installed, try to download your opensll **SAME as YOUT VERSION**.
+
+openssl package [ftp](https://steamdeck-packages.steamos.cloud/archlinux-mirror/core-3.3/os/x86_64/?C=M&O=D)
+
+```shell
+tar -xvpf openssl-1.1.1.m-1-x86_64.pkg.tar.zst -C / --exclude .PKGINFO --exclude .INSTALL --exclude .MTREE --exclude .BUILDINFO
+```
