@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Steamdeck system settings
+title: Steamdeck system settings and fixup
 categories: [Fun]
 description: 
 keywords: game
@@ -12,6 +12,8 @@ mindmap: false
 mindmap2: false
 ---
 
+Steamdeck CLI, proxy and update debug & fixing.
+Along with stardew valley with SMAPI.
 
 # 1. Preparation
 
