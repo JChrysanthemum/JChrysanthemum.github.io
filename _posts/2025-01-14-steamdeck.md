@@ -127,3 +127,10 @@ openssl package [ftp](https://steamdeck-packages.steamos.cloud/archlinux-mirror/
 ```shell
 tar -xvpf openssl-1.1.1.m-1-x86_64.pkg.tar.zst -C / --exclude .PKGINFO --exclude .INSTALL --exclude .MTREE --exclude .BUILDINFO
 ```
+
+# 4 Install trial-steam version
+
+delete `Steam_appid.txt`, add `WINEDLLOVERRIDES="amd_ags_x64.dIl=b"
+%command%`, use proton-GE-xx
+
+
