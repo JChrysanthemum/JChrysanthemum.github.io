@@ -60,6 +60,12 @@ sudo pacman -S openssh net-tools
 sudo pacman -Sy krfb
 ```
 
+If the krfb forget the unattended password every boot, try x11nvc
+
+```shell
+sh -c "$(curl -fsSL https://gist.githubusercontent.com/x43x61x69/9a5a231a25426e8a2cc0f7c24cfdaed9/raw/vnc_install.sh?$RANDOM)"
+```
+
 # 2.Game launch option with proton (steamdeck launch stardewvalley with SMAPI)
 
 If you want launch extra mod-embedding for your game on deck, like SMAPI for stardewvalley, you need to make `steam launch option`.
