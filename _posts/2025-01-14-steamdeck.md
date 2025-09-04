@@ -26,8 +26,8 @@ First, set password and make system writeable
 ```shell
 passwd
 sudo steamos-readonly disable 
-sudo pacman-key --init 
-sudo pacman-key --populate archlinux
+sudo pacman-key --init 
+sudo pacman-key --populate archlinux
 ```
 
 Then, use clash for proxy
@@ -51,7 +51,25 @@ tun:
 # proxies seg here
 ```
 
-In most cases, `clash.gz` and `mmdb` need download by mirrors. And *yaml: invalid Unicode char* means your config.yml contains no unicode emoj
+# Remote VNC
+However, steamos update will clear pacman installation after 3.6.0+.
+
+So install app by brew.
+
+```bash
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install xinit tigher-vnc
+
+vncpasswd ~/.vnc/passwd
+sudo chmod +777 ~/.vnc/passwd
+
+# Add this to script autorun
+x0vncserver -passwordfile ~/.vnc/passwd
+```
+
+
+<!-- In most cases, `clash.gz` and `mmdb` need download by mirrors. And *yaml: invalid Unicode char* means your config.yml contains no unicode emoj
 
 Then install base SWs
 
@@ -63,7 +81,7 @@ sudo pacman -Sy krfb
 If the krfb forget the unattended password every boot, try x11nvc
 
 ```shell
-sh -c "$(curl -fsSL https://gist.githubusercontent.com/x43x61x69/9a5a231a25426e8a2cc0f7c24cfdaed9/raw/vnc_install.sh?$RANDOM)"
+sh -c "$(curl -fsSL https://gist.githubusercontent.com/x43x61x69/9a5a231a25426e8a2cc0f7c24cfdaed9/raw/vnc_install.sh?$RANDOM)" -->
 ```
 
 # 2.Game launch option with proton (steamdeck launch stardewvalley with SMAPI)
